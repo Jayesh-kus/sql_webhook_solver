@@ -34,7 +34,18 @@ headers = {
     "Content-Type": "application/json"
 }
 payload = {
-    "finalQuery": query
+    "finalQuery": query,
+    "githubUrl": "https://github.com/Jayesh-kus/sql_webhook_solver",
+    "githubRepo": "https://github.com/Jayesh-kus/sql_webhook_solver",
+    "githubRepoUrl": "https://github.com/Jayesh-kus/sql_webhook_solver",
+    "repoUrl": "https://github.com/Jayesh-kus/sql_webhook_solver",
+    "repositoryUrl": "https://github.com/Jayesh-kus/sql_webhook_solver",
+    "github_url": "https://github.com/Jayesh-kus/sql_webhook_solver",
+    "github_repo_url": "https://github.com/Jayesh-kus/sql_webhook_solver",
+    "gitUrl": "https://github.com/Jayesh-kus/sql_webhook_solver",
+    "git_url": "https://github.com/Jayesh-kus/sql_webhook_solver",
+    "github": "https://github.com/Jayesh-kus/sql_webhook_solver",
+    "repo": "https://github.com/Jayesh-kus/sql_webhook_solver"
 }
 
 print(f"Submitting query to {submit_url}...")
