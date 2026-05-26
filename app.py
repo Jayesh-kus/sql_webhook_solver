@@ -53,7 +53,8 @@ def main():
             "Content-Type": "application/json"
         }
         submit_payload = {
-            "finalQuery": sql_query
+            "finalQuery": sql_query,
+            "githubUrl": "https://github.com/Jayesh-kus/sql_webhook_solver"
         }
         
         print(f"POSTing solution to: {webhook_url}...")
